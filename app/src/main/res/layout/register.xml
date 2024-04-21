@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lime"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="283dp"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ananas_black"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="@string/registration"
+        android:textColor="@color/black"
+
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/inter_bold"
+        android:hint="@string/login"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/inter_bold"
+        android:hint="@string/Email"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/inter_bold"
+        android:hint="@string/password"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <Button
+        android:id="@+id/user_Register"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/green"
+        android:ems="10"
+        android:fontFamily="@font/inter_bold"
+        android:hint="@string/register"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+</LinearLayout>

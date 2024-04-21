@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Investment</string>
+    <string name="registration">create account</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="Email">Email</string>
+    <string name="register">Register</string>
+    <string name="errorRegister">Error: not all fields are filled in</string>
+    <string name="coin">briefcase</string>
+    <string name="gearWheel">settings</string>
+    <string name="house">Main</string>
+    <string name="сhart">market</string>
+    <string name="authorization">Log in to your account</string>
+    <string name="authorization1">login</string>
+    <string name="name">name</string>
+    <string name="personalData">enter your personal information</string>
+    <string name="Data">Enter your birthday (DD.MM.YYYY)</string>
+    <string name="hello">Hello!</string>
+
+
+
+
+</resources>

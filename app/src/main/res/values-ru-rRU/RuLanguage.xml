@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Инвестиции</string>
+    <string name="registration">Создать аккаунт</string>
+    <string name="login">Ввeдите логин</string>
+    <string name="password">Ввeдите пароль</string>
+    <string name="Email">Ввeдите почту</string>
+    <string name="register">Зарегистрироваться </string>
+    <string name="errorRegister">Ошибка: не все поля заполнены</string>
+    <string name="coin">Портфель</string>
+    <string name="gearWheel">Настройки</string>
+    <string name="house">Главная</string>
+    <string name="сhart">Биржа</string>
+    <string name="authorization">Войдите в аккаунт</string>
+    <string name="authorization1">Войти</string>
+    <string name="name">Ввeдите имя</string>
+    <string name="personalData">Ввeдите личные данные</string>
+    <string name="Data">Введите день рождения (ДД.ММ.ГГГГ)</string>
+    <string name="hello">Привет!</string>
+
+
+
+
+</resources>
